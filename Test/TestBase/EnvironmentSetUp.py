@@ -4,7 +4,6 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium import webdriver
 import unittest
 
-
 class EnvironmentSetUp(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome("C:\\Users\\gouri\\PycharmProjects\\WebAutomation\\Drivers\\chromedriver.exe")

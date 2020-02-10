@@ -1,5 +1,9 @@
 __author__ = 'Gourika Maaknuru'
 
+import sys
+import os
+sys.path.append(os.path.abspath('../../'))
+
 from Test.TestBase.EnvironmentSetUp import EnvironmentSetUp
 from Test.PageObject.Locators import Locator
 from selenium import webdriver

@@ -1,5 +1,9 @@
 __author__ = 'Gourika Maaknuru'
 
+import sys
+import os
+sys.path.append(os.path.abspath('../../'))
+
 from unittest import TestLoader, TestSuite, TextTestRunner
 from Test.Scripts.test_Oyeroomie_HomePage import Oyeroomie_HomePage
 from Test.Scripts.test_Oyeroomie_PostAdPage import Oyeroomie_PostAdPage
